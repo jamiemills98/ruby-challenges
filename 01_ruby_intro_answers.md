@@ -42,8 +42,8 @@ Your ruby version:
 
 ## Calculations in IRB
 1. How many hours are in a year?
-    * Answer: 365*60= 8760 hours 
+    * Answer: 365 * 60= 8760 hours 
 2. How many minutes are in a decade?
-    * Answer: 8760*60*10= 5256000 minutes
+    * Answer: 8760 * 60 * 10= 5256000 minutes
 3. How many seconds old are you?
     * Answer: 
