@@ -19,8 +19,16 @@
 
 ## List of challenge branches
 <<<<<<< HEAD
+<<<<<<< HEAD
 * 01_ruby_intro
 =======
 * 01_ruby_intro
 * 02_input_output
 >>>>>>> e2732157f0941ad9a87df0187303e98b4ea7d9e8
+=======
+* 01_ruby_intro
+* 02_input_output
+* 03_largest_number
+* 04_sum_numbers
+* 05_in_array
+>>>>>>> a600065b3f320365a06fe044bcddc70911b1fe59
