@@ -2,9 +2,9 @@
 
 # Write a method that will take an array of numbers,
 # and return their sum.
-numbers = [2, 4, 6]
+sum_numbers = [2, 4, 6]
 sum = 0
-numbers.each { |a| sum += a}
+sum_numbers.each { |a| sum += a}
 puts a
 
 # Check your solution by running the tests:
