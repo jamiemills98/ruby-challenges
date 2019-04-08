@@ -3,9 +3,10 @@
 # Write a method called 'in_array' which will take 
 # two parameteres:
 # One as a string and one as an array of strings
-in_array = "hello" ["hi", "hola", "hello"]
+in_array = "hello", [" hi, hola, hello"]
 # Return a boolean indicationg whether or not the
 # string is found in the array.
+"hello" == "hello"
 
 # Test your solution with:
 # ruby tests/05_in_array_test.rb

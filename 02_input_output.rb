@@ -28,6 +28,7 @@ puts "Hi, #{name}! How old are you?"
     age = gets.to_i
 puts "Wow! You are #{age} years old. Congratulations!"
     new_age = 100 - age
+    
 puts "#{name}, in #{new_age} you will be 100 years old!"
 
     
