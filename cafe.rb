@@ -8,6 +8,23 @@
 # 2 scones
 # and
 # 3 teas
+order = [{6, "lattes"}, {2, "scones"}, {3, "teas"}]
+class Cafe
+    attr_accessor :amount, :item
+    def initialize(amount, item)
+        @amount = amount.to_i
+        @item = item
+       
+    def to_s
+        return "#{@amount} #{@item}"
+    end
+    end
+end 
+
+lattes = Cafe.new(6, "lattes")
+scones = Cafe.new(2, "Scones")
+teas = Cafe.new(3, "teas")
+
 
 # Write a program that asks the customer for their order. The customer
 # will only order one item.
@@ -16,7 +33,33 @@
 #   if they order a tea, add one to the number of teas you need to make
 
 # Print the final order so you know what to make.
+puts "What would you like to order?"
+customer_order = gets.chomp
 
+case customer_order
+when customer_order == "latte"
+    lattes += 1
+when customer_order == "scone"
+    scones += 1
+when customer_order == "tea"
+    teas += 1
+else 
+    puts "Sorry, please choose a latte, scone or tea."
+end 
+
+puts 
+ order = [lattes, scones, teas]
+ puts order
+
+
+
+
+
+
+    
+
+
+    
 
 # Part 2
 # Lattes sell for $4, and cost $2 to make

@@ -24,3 +24,25 @@ words << add_word
 end
 puts words
 end
+
+
+
+#code example
+class definition
+
+    def initalize
+        @dictionary = {}
+    end
+
+    def add_word(word, defintion)
+        @dictionary[word] = defintion
+    end
+
+    def lookup(word)
+        return @dictionary[word]
+    end
+
+    def total_words
+        returns @dictionary.keys.count
+    end
+end
