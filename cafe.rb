@@ -12,7 +12,7 @@
 add_order = []
 add_order[0] = [6, "Lattes"]
 add_order[1] = [2, "Scones"]
-add_order[2] = [3, "teas"]
+add_order[2] = [3, "Teas"]
 
 
 # Write a program that asks the customer for their order. The customer
@@ -23,14 +23,15 @@ add_order[2] = [3, "teas"]
 
 # Print the final order so you know what to make.
 puts "What would you like to order?"
-customer_order = gets.chomp.capitalize
+customer_order = gets.chomp
+
 
 case customer_order
-when "latte"
+when "latte", "Latte"
     add_order[0][0] += 1
-when "scone"
+when "scone", "Scone"
     add_order[1][0] += 1
-when "tea"
+when "tea", "Tea"
     add_order[2][0] += 1
 else 
     puts "Sorry, please choose a latte, scone or tea."
