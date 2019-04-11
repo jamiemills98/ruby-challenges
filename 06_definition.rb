@@ -28,9 +28,9 @@ end
 
 
 #code example
-class definition
+class Definition
 
-    def initalize
+    def initalize 
         @dictionary = {}
     end
 

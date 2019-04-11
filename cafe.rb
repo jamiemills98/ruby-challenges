@@ -8,22 +8,11 @@
 # 2 scones
 # and
 # 3 teas
-order = [{6, "lattes"}, {2, "scones"}, {3, "teas"}]
-class Cafe
-    attr_accessor :amount, :item
-    def initialize(amount, item)
-        @amount = amount.to_i
-        @item = item
-       
-    def to_s
-        return "#{@amount} #{@item}"
-    end
-    end
-end 
 
-lattes = Cafe.new(6, "lattes")
-scones = Cafe.new(2, "Scones")
-teas = Cafe.new(3, "teas")
+add_order = []
+add_order[0] = [6, "Lattes"]
+add_order[1] = [2, "Scones"]
+add_order[2] = [3, "teas"]
 
 
 # Write a program that asks the customer for their order. The customer
@@ -34,22 +23,22 @@ teas = Cafe.new(3, "teas")
 
 # Print the final order so you know what to make.
 puts "What would you like to order?"
-customer_order = gets.chomp
+customer_order = gets.chomp.capitalize
 
 case customer_order
-when customer_order == "latte"
-    lattes += 1
-when customer_order == "scone"
-    scones += 1
-when customer_order == "tea"
-    teas += 1
+when "latte"
+    add_order[0][0] += 1
+when "scone"
+    add_order[1][0] += 1
+when "tea"
+    add_order[2][0] += 1
 else 
     puts "Sorry, please choose a latte, scone or tea."
 end 
 
-puts 
- order = [lattes, scones, teas]
- puts order
+add_order.each do |key, value|
+    puts "#{key} #{value}"
+end
 
 
 
