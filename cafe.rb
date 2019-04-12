@@ -58,6 +58,25 @@ end
 
 # Print out the total profit for the orders you have.
 
+class Profit
+
+    def profits(num1, num2)
+        return num1 - num2
+    end
+
+end
+
+latte = Profit.new
+latte.profits(4, 2) * add_order[0][0]
+puts "$#{latte.profits(4, 2) * add_order[0][0]} profit"
+
+tea = Profit.new
+puts tea.profits(3, 0.5)
+
+scones = Profit.new
+puts scones.profits(5, 3)
+
+
 # Part 3
 # Write a program that asks the user for their order.
 # Allow the user to input mutiple items and to specify quantities.
