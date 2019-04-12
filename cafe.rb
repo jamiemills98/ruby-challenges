@@ -1,6 +1,3 @@
-# This challenge has three parts. Use all you have learned to
-# implement the solution. Use methods to keep your code DRY and
-# clean. Use data structures that are appropriate.
 
 # Part 1
 # You are working at a cafe where you have a current backlog of orders:
@@ -16,12 +13,8 @@ add_order[2] = [3, "Teas"]
 
 
 # Write a program that asks the customer for their order. The customer
-# will only order one item.
-#   if they order a latte, add one to the number of lattes you need to make,
-#   if they order a scone, add one to the number of scones you need to serve,
-#   if they order a tea, add one to the number of teas you need to make
-
 # Print the final order so you know what to make.
+
 puts "What would you like to order?"
 customer_order = gets.chomp
 
@@ -41,26 +34,12 @@ add_order.each do |key, value|
     puts "#{key} #{value}"
 end
 
-
-
-
-
-
-    
-
-
-    
-
 # Part 2
-# Lattes sell for $4, and cost $2 to make
-# Scones sell for $5, and cost $3 to make
-# Tea sells for $3, and cost $0.50 to make
-
 # Print out the total profit for the orders you have.
 
 class Profit
 
-    def profits(num1, num2)
+    def profits(num1, num2) 
         return num1 - num2
     end
 
@@ -88,8 +67,8 @@ puts "$#{tea.profits(4, 2) * add_order[2][0]} profit"
 #   Print the order
 #   Print the total price
 
-# Example:
-# What would you like to order (latte, scone, tea)? Type (q)uit to quit.
+
+
 # latte
 # How many?
 # 2
