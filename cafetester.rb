@@ -17,18 +17,34 @@ puts "What would you like to order (latte, scone, tea)? Type (q)uit to quit."
 
     case customer
     when "latte", "Latte"
-        add_order[0][0] += 1
+        puts "How many?"
+        answer = gets.to_i
+        add_order[0][0] += answer
+
     when "scone", "Scone"
-        add_order[1][0] += 1
+        puts "How many?"
+        answer = gets.to_i
+        add_order[1][0] += answer
+        
     when "tea", "Tea"
-        add_order[2][0] += 1
+        puts "How many?"
+        answer = gets.to_i
+        add_order[2][0] += answer
+        
+    when "q", "Q"
+        break
     else 
         puts "Sorry, please choose a latte, scone or tea."
     end 
     
-    add_order.each do |key, value|
-        puts "#{key} #{value}"
-    end
+    
+    
+end
+puts "Thank you! here is your order: "
+add_order.each do |key, value|
+    puts "#{key} #{value}"
+end
+
 
 # latte
 # How many?

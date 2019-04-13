@@ -18,7 +18,6 @@ add_order[2] = [3, "Teas"]
 puts "What would you like to order?"
 customer_order = gets.chomp
 
-
 case customer_order
 when "latte", "Latte"
     add_order[0][0] += 1
