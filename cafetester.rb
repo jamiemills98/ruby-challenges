@@ -27,15 +27,12 @@ puts "What would you like to order (latte, scone, tea)? Type (q)uit to quit."
         puts "How many?"
         answer = gets.to_i
         add_order[1][0] += answer
-        #scone_cost = Cost.new
-        #scone_cost.total_cost(5, answer)
         
     when "tea", "Tea"
         puts "How many?"
         answer = gets.to_i
         add_order[2][0] += answer
-        #tea_cost = Cost.new
-        #tea_cost.total_cost(3, answer)
+        
 
     when "q", "Q"
         break
