@@ -11,6 +11,7 @@ add_order[0] = [0, "Lattes"]
 add_order[1] = [0, "Scones"]
 add_order[2] = [0, "Teas"]
 
+
 loop do
 puts "What would you like to order (latte, scone, tea)? Type (q)uit to quit."
     customer = gets.chomp
@@ -18,32 +19,38 @@ puts "What would you like to order (latte, scone, tea)? Type (q)uit to quit."
     case customer
     when "latte", "Latte"
         puts "How many?"
-        answer = gets.to_i
-        add_order[0][0] += answer
+        latte_amount = gets.to_i
+        add_order[0][0] += latte_amount
+        
 
     when "scone", "Scone"
         puts "How many?"
         answer = gets.to_i
         add_order[1][0] += answer
+        #scone_cost = Cost.new
+        #scone_cost.total_cost(5, answer)
         
     when "tea", "Tea"
         puts "How many?"
         answer = gets.to_i
         add_order[2][0] += answer
-        
+        #tea_cost = Cost.new
+        #tea_cost.total_cost(3, answer)
+
     when "q", "Q"
         break
     else 
         puts "Sorry, please choose a latte, scone or tea."
     end 
-    
-    
-    
+
 end
+
+
 puts "Thank you! here is your order: "
 add_order.each do |key, value|
     puts "#{key} #{value}"
 end
+puts "Total cost = $ "
 
 
 # latte
