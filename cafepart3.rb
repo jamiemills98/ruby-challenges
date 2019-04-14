@@ -49,28 +49,5 @@ puts "Thank you! here is your order: "
 add_order.each do |key, value|
     puts "#{key} #{value}"
 end
-amount = []
-amount << add_order[0][2]
-amount << add_order[1][2]
-amount << add_order[2][2]
-
-amount.each do |value|
-puts "Total order= $ #{value}"
-end
-
-# latte
-# How many?
-# 2
-# Anything else? Type (q)uit to quit.
-# tea
-# How many?
-# 1
-# Anything else? Type (q)uit to quit.
-# coffee
-# I'm sorry, we don't serve that. Would you like latte, scone, or tea? Type (q)uit to quit.
-# q
-# Thank you! Your order:
-# 2 latte
-# 1 tea
-# Order total: $11.00
-
+amount = add_order[0][2] + add_order[1][2] +add_order[2][2]
+puts "Total order = $#{amount}"
