@@ -19,5 +19,9 @@
 #
 
 def included_once (haystack, needle)
+  count = 0
+  haystack.each do |needle|
+    
+  end
 end
 
