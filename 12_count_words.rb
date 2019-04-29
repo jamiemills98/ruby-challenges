@@ -14,7 +14,7 @@
 # Your code here
 
 
-
+=begin
 def count(string)
     result = []
     result.default = 0
@@ -26,6 +26,13 @@ end
 end
 
 puts count("hi", "hello", "hey", "hey")
+=end
+loop do
+puts "Please enter any word, character or number. Press s to stop."
+answer = gets.strip
+if answer == s
+    break
+end
 # Beast Mode:
 # Change your code so that it doesn't matter if capital letters are used,
 # In the above example the result should be:
