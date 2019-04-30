@@ -14,16 +14,13 @@
 # Your code here
 
 
-
-loop do
-    puts "Please enter any word, character or number. Press s to stop."
-    answer = gets.strip
-    if answer == "s"
-        break
-    end
-end
-
-def count(string)
+#Ask user for input
+puts "Please enter any word/s"
+input = gets.strip
+    
+#end
+#count occurence of each word in string
+def count_words(input)
     result = []
     result.default = 0
     words = string.scan

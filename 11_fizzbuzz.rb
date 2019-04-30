@@ -25,7 +25,7 @@
 # 4
 # Buzz
 # ...etc
-puts num = 1..100
+num = 1..100
 loop do
     case
     when num % 3 == 0 && num % 5 == 0 
