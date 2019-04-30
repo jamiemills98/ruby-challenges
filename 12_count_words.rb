@@ -15,21 +15,27 @@
 
 
 #Ask user for input
-puts "Please enter any word/s"
+puts "Please enter any phrase or some words"
 input = gets.strip
-    
+
+    def word_count(result)
+        result.each do |key, value|
+            puts "#{key} #{value}"
+        end
+    end
 #end
 #count occurence of each word in string
 def count_words(input)
-    result = []
-    result.default = 0
-    words = string.scan
-    words.each do |a|
-        result[a] += 1
-end
+    result = Hash.new(0)
+    input.split(" ").each do |word|
+        result[word.downcase] += 1
+        
+    end
+    word_count(result)
     return result
 end
 
+puts count_words(input)
 
 
 # Beast Mode:
