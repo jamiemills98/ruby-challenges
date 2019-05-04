@@ -20,7 +20,22 @@
 # Your code here
 
 
+array = []
 
+puts "Please type in some words"
+input_1 = gets.strip.capitalize
+array << input_1
+
+puts "Please type in second input of words"
+input_2 = gets.strip.capitalize
+
+
+ array.each do |word|
+    if word == input_2
+    puts "Hidden"
+    end
+end
+puts array
 # Beast mode:
 # Does your code deal with capital letters? Update your solution so that
 # they will be downsized if they are input but HIDDEN remains capitalised.
