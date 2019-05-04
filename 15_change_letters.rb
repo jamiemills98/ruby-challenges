@@ -19,3 +19,6 @@
 
 
 # Your code here
+puts "Please enter any word or phrase"
+answer = gets.strip
+puts answer.gsub("s", "th")
