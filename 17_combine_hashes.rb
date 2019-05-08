@@ -27,6 +27,11 @@ def combine_hashes(hash1, hash2)
   hash3 = {}
 
   # Your code here
-  hash3 = hash1.merge!(hash2)
+  hash1.each do |key, value|
+    hash3[key] = (hash1[key] += hash2[key])
+    hash3
+  end
+   
   return hash3
 end
+
