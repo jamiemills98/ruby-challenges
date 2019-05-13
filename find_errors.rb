@@ -13,9 +13,9 @@ def contains?(arr,val)
     ind=0
     # while we haven't found the value and we 
     # still have values to check
-    while !found and ind < arr.length do
+    while !found ind < arr.length do
         if (arr[ind] == val)
-            found=true
+            found == true
         else
             return false
         end
