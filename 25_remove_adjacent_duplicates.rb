@@ -14,10 +14,8 @@
 # *E.g.* remove_adjacent_duplicates("abcABCabcABC") should return exactly the same string: "abcABCabcABC"
 
 def remove_adjacent_duplicates(input)
-    input.chars.each do |character|
-        return character if input.count(character) < 2
-    end 
-    return input
+   return input.squeeze
 end
 
 puts remove_adjacent_duplicates("AAabbCCCcDDcDa")
+puts remove_adjacent_duplicates("abcABCabcABC")
