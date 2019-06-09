@@ -17,7 +17,7 @@
 
 
 def max_min(num_string)
-    
+   
 end
 
-puts max_min("5 2 9 8 23 1")
+puts max_min_in_string("5 2 9 8 23 1")
