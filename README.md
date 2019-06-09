@@ -34,6 +34,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## List of challenge branches
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -110,10 +111,14 @@
 =======
 ## List of challenge branches
 >>>>>>> 1e2293208970241bef7e9a73fb0eba266984bb08
+=======
+## List of challenge branches
+>>>>>>> d050ff1e9debde4c151e86e164b777a6f194c92e
 * 01_ruby_intro
 * 02_input_output
 * 03_largest_number
 * 04_sum_numbers
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -184,10 +189,13 @@
 >>>>>>> 956e44bc9d9466bda375724a73da6f56ae18eb35
 =======
 >>>>>>> 1e2293208970241bef7e9a73fb0eba266984bb08
+=======
+>>>>>>> d050ff1e9debde4c151e86e164b777a6f194c92e
 * 05_in_array
 * 06_definition
 * 07_included_once
 * 08_count_letters
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -236,10 +244,13 @@
 >>>>>>> 956e44bc9d9466bda375724a73da6f56ae18eb35
 =======
 >>>>>>> 1e2293208970241bef7e9a73fb0eba266984bb08
+=======
+>>>>>>> d050ff1e9debde4c151e86e164b777a6f194c92e
 * 09_vowels
 * 10_unique
 * 11_fizzbuzz
 * 12_count_words
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -291,10 +302,13 @@
 >>>>>>> 956e44bc9d9466bda375724a73da6f56ae18eb35
 =======
 >>>>>>> 1e2293208970241bef7e9a73fb0eba266984bb08
+=======
+>>>>>>> d050ff1e9debde4c151e86e164b777a6f194c92e
 * 13_fibonacci
 * 14_hackerman
 * 15_change_letters
 * 16_palindrome
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -319,6 +333,8 @@
 >>>>>>> 956e44bc9d9466bda375724a73da6f56ae18eb35
 =======
 >>>>>>> 1e2293208970241bef7e9a73fb0eba266984bb08
+=======
+>>>>>>> d050ff1e9debde4c151e86e164b777a6f194c92e
 * 17_combine_hashes
 * 18_find_errors
 * 19_balanced_number
@@ -326,6 +342,7 @@
 * 21_sort_numbers
 * 22_exes_ohs
 * 23_first_non_repeating
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -360,3 +377,9 @@
 * 24_isogram
 * 25_remove_adjacent_duplicates
 >>>>>>> 1e2293208970241bef7e9a73fb0eba266984bb08
+=======
+* 24_isogram
+* 25_remove_adjacent_duplicates
+* 26_max_min
+* 27_in_array_strict
+>>>>>>> d050ff1e9debde4c151e86e164b777a6f194c92e
