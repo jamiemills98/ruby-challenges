@@ -34,13 +34,14 @@
 
 def exes_and_ohs(input)
     # Your code goes here
+    #MY WRONG ANSWER (only does x and o not other letters)
     input.chars do 
         if input.count("x") == input.count("o")
             return true
         end
         return false
-    end
+end
 end
 
-# WRONG ANSWER
-exes_and_ohs(xoxo)
+puts exes_and_ohs("xoxo")
+puts exes_and_ohs("xoxoxxx")
