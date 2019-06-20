@@ -36,6 +36,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## List of challenge branches
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -118,10 +119,14 @@
 =======
 ## List of challenge branches
 >>>>>>> d1590d51523066ffed717893428a7f47ddb00feb
+=======
+## List of challenge branches
+>>>>>>> bf5b086647443a270864a96f3cf52b648fd54229
 * 01_ruby_intro
 * 02_input_output
 * 03_largest_number
 * 04_sum_numbers
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -198,10 +203,13 @@
 >>>>>>> d050ff1e9debde4c151e86e164b777a6f194c92e
 =======
 >>>>>>> d1590d51523066ffed717893428a7f47ddb00feb
+=======
+>>>>>>> bf5b086647443a270864a96f3cf52b648fd54229
 * 05_in_array
 * 06_definition
 * 07_included_once
 * 08_count_letters
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -256,10 +264,13 @@
 >>>>>>> d050ff1e9debde4c151e86e164b777a6f194c92e
 =======
 >>>>>>> d1590d51523066ffed717893428a7f47ddb00feb
+=======
+>>>>>>> bf5b086647443a270864a96f3cf52b648fd54229
 * 09_vowels
 * 10_unique
 * 11_fizzbuzz
 * 12_count_words
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -317,10 +328,13 @@
 >>>>>>> d050ff1e9debde4c151e86e164b777a6f194c92e
 =======
 >>>>>>> d1590d51523066ffed717893428a7f47ddb00feb
+=======
+>>>>>>> bf5b086647443a270864a96f3cf52b648fd54229
 * 13_fibonacci
 * 14_hackerman
 * 15_change_letters
 * 16_palindrome
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -351,6 +365,8 @@
 >>>>>>> d050ff1e9debde4c151e86e164b777a6f194c92e
 =======
 >>>>>>> d1590d51523066ffed717893428a7f47ddb00feb
+=======
+>>>>>>> bf5b086647443a270864a96f3cf52b648fd54229
 * 17_combine_hashes
 * 18_find_errors
 * 19_balanced_number
@@ -358,6 +374,7 @@
 * 21_sort_numbers
 * 22_exes_ohs
 * 23_first_non_repeating
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -397,12 +414,20 @@
 =======
 =======
 >>>>>>> d1590d51523066ffed717893428a7f47ddb00feb
+=======
+>>>>>>> bf5b086647443a270864a96f3cf52b648fd54229
 * 24_isogram
 * 25_remove_adjacent_duplicates
 * 26_max_min
 * 27_in_array_strict
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> d050ff1e9debde4c151e86e164b777a6f194c92e
 =======
 * 28_good_walk
 >>>>>>> d1590d51523066ffed717893428a7f47ddb00feb
+=======
+* 28_good_walk
+* 29_shortest_walk
+* 30_spin_words
+>>>>>>> bf5b086647443a270864a96f3cf52b648fd54229
